@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background: #fcf8ec;
+}
+.logo {
+	text-align: center;
+	width: auto;
+}
+
+li {
+	list-style-type: none;
+	
+	display: inline;
+	font-family: futura-pt, sans-serif;
+	font-weight: 400;
+	font-style: normal;	
+} 
+nav li{
+	padding: 20px
+}
+
+a:link {
+	text-decoration: none;
+	color: darkslategray;
+	
+}
+
+a:hover {
+	color: black;
+}
+
+.topnav {
+	text-align: center;
+	width: auto;	
+	padding: 300;
+}
+
+#homeimage {
+	width: auto;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px
+}
+
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+ 	background-color: #2e4313;
+	padding: 10px;
+	text-align: center;
+}
+
+.grid-item {
+  font-size: 30px;
+  text-align: center;
+}
+.grid-items {
+  font-size: 30px;
+  text-align:left;
+	padding-left: 10px
+}
+
+.left {
+	float: left;
+	width: 120px
+}
+
+.right {
+	float: right;
+	margin-top: 10px;
+	padding-left: 80px;
+	width: 620px
+}
+
+h3 {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: #809882;
+	font-size: 50px;
+}
+
+p {
+	font-family: futura-pt, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color:#181c1d;
+	font-size: 23px;
+}
+
+.rightabout {
+	width: 620px
+}
+
+h4 {
+	font-size: 40px;
+	color: burlywood;
+}
+
+
+.leftcontact {
+	float: left;
+	width: 620
+}
+
+.rightabout {
+	float: right;
+	margin-top: 10px;
+	width: 220px
+}
+
+p1 {
+	font-family: futura-pt, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 23px;
+	color: burlywood
+}
+
+h2 {
+	background-color: #2e4313;
+	color: floralwhite;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 50px;
+}
+
+.search {
+	background-color: #2e4313;
+	text-align: center;
+}
+
+.backgroundcolor {
+	background-color: #2e4313
+}
+
+#zzimage {
+	float: right
+}
+
+#pothosimg {
+	float: left
+}
+
+h1 {
+	font-size: 40px;
+	color: saddlebrown;
+}
+
+.tips {
+	padding-left: 100px
+}
+
+.fertilizer {
+	padding-left: 40px;
+	padding-bottom: 40px
+}
+
+.footer {
+	position:fixed;
+	bottom: 0;
+	background-color: #e4b584;
+	width: auto
+}
+
+.grid-container3 {
+	display: grid;
+	padding: 10px;
+	grid-template-columns: auto auto;
+	width:1500px
+
+}
+
+.footnav {
+	float: right;
+	width: auto;	
+	padding-top: 300;
+	
+}
